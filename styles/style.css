@@ -1,0 +1,238 @@
+:root {
+  --main-bg-color: #f6f6f6;
+  --main-color: #e5c6ae;
+  --secondary-color: #c4dee5;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: black;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(
+    to right,
+    rgb(109, 109, 109),
+    rgb(109, 109, 109) 50%,
+    black 50%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+  background-position: 0 100%;
+}
+
+body {
+  font-family: "Nunito";
+  background-color: var(--main-bg-color);
+}
+
+nav {
+  height: 10vh;
+}
+
+header {
+  height: 90vh;
+}
+
+header .row {
+  padding-bottom: 5%;
+}
+
+#profilePicture {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 20rem;
+  border: 10px solid var(--secondary-color);
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 2.5vw;
+}
+
+h3 {
+  font-size: 3vw;
+}
+
+.highlight-primary {
+  background: linear-gradient(
+    to bottom,
+    transparent 50%,
+    var(--main-color) 50%
+  );
+}
+
+.highlight-secondary {
+  background: linear-gradient(
+    to bottom,
+    transparent 50%,
+    var(--secondary-color) 50%
+  );
+}
+
+nav > span,
+.nav-link {
+  font-size: 1.5rem !important;
+}
+
+#circleBlue {
+  position: absolute;
+  width: 36vw;
+  height: 36vw;
+  left: -15vw;
+  top: 40vh;
+  border-radius: 1000px;
+  background: var(--main-color);
+  z-index: -1;
+}
+
+#circleOrange {
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  left: 15vw;
+  top: 67vh;
+  border-radius: 1000px;
+  background: var(--secondary-color);
+  z-index: -1;
+}
+
+section {
+  margin-top: 30vh;
+}
+
+#presentation-text {
+  font-size: 2vw;
+  font-weight: lighter;
+}
+
+#niceGuy {
+  height: 30vw;
+  margin-bottom: 100px;
+}
+
+.project-info > h4 {
+  font-size: 1.8vw;
+  margin-bottom: 30px;
+}
+
+.project-info > p {
+  font-size: 1.5vw;
+  margin-bottom: 30px;
+  font-weight: lighter;
+}
+
+.project-container {
+  margin-bottom: 10vh;
+}
+
+.project-container > a > img {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.project-container > a > img:hover {
+  opacity: 0.8;
+}
+
+.section-title {
+  margin: 5vw 0;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  -moz-box-align: center;
+  align-items: center;
+}
+
+.skills img {
+  padding: 0.3125rem 2.1875rem;
+  transition: background-color 0.3s;
+}
+
+.skills img:hover{
+  background-color: var(--main-color);
+}
+
+h5 {
+  font-size: 1.8vw;
+}
+
+#contact > div > a > p {
+  font-size: 1.5vw;
+  font-weight: lighter;
+}
+
+#contact > div > a > img {
+  display: block;
+  margin: auto;
+}
+
+#footer {
+  margin-top: 3rem;
+  background: -moz-linear-gradient(
+    130deg,
+    var(--main-color) 50%,
+    var(--secondary-color) 50%
+  );
+  background: -webkit-linear-gradient(
+    130deg,
+    var(--main-color) 50%,
+    var(--secondary-color) 50%
+  );
+  background: linear-gradient(
+    130deg,
+    var(--main-color) 50%,
+    var(--secondary-color) 50%
+  );
+}
+
+#footer > p {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+#num {
+  font-size: 1.5vw;
+  font-weight: lighter;
+}
+
+.logo-link {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.logo-link:hover {
+  opacity: 0.6;
+}
+
+.social-link{
+  text-align: center;
+}

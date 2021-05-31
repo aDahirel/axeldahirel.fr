@@ -1,0 +1,139 @@
+:root {
+  --main-bg-color: #f6f6f6;
+  --main-color: #e5c6ae;
+  --secondary-color: #c4dee5;
+}
+
+@media screen and (max-width: 991px) {
+  a:hover{
+    background-position: 100%;
+  }
+  .row {
+    flex-wrap: wrap-reverse;
+  }
+
+  #profilePicture {
+    height: 250px;
+    width: 250px;
+    margin-bottom: -100px;
+  }
+
+  h1 {
+    font-size: 52px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 27px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 25px;
+    margin-bottom: 5vh;
+  }
+
+  .col-lg-4 {
+    text-align: center !important;
+  }
+
+  #navbarTogglerDemo02 {
+    z-index: 2;
+    background-color: var(--main-bg-color);
+  }
+
+  #circleBlue {
+    position: absolute;
+    width: 40vw;
+    height: 40vw;
+    left: -15vw;
+    top: 80vh;
+    border-radius: 1000px;
+    background: var(--secondary-color);
+  }
+
+  #circleOrange {
+    position: absolute;
+    width: 25vw;
+    height: 25vw;
+    left: 15vw;
+    top: 90vh;
+    border-radius: 1000px;
+    background: var(--main-color);
+  }
+
+  #niceGuy {
+    display: none;
+  }
+
+  section {
+    margin-top: 15vh;
+  }
+
+  #presentation-text {
+    font-size: 4vw;
+  }
+
+  .project-container {
+    flex-direction: column-reverse !important;
+    margin: 0;
+  }
+
+  .project-info {
+    margin: 0 !important;
+  }
+
+  .project-info > h4,
+  .project-info > p {
+    margin: 5vh 0 !important;
+    font-size: 4vw;
+  }
+
+  h5 {
+    font-size: 5vw;
+  }
+
+  #contact > div > a > p {
+    font-size: 4vw;
+    font-weight: lighter;
+  }
+
+  #num{
+    font-size: 4vw;
+    font-weight: lighter;
+  }
+
+  #contact > div > a > img {
+    margin: 0;
+  }
+
+  #contact > div {
+    margin-bottom: 2vh;
+  }
+
+  #contact {
+    flex-direction: column;
+  }
+
+  .nav-item{
+  font-weight: lighter;
+  }
+
+  .nav-item:hover{
+    background-color: var(--secondary-color);
+  }
+
+  .shadow-left, .shadow-right{
+    box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  }
+
+  .social-link{
+    text-align:left;
+  }
+
+  .skills img:hover{
+    background-color: var(--main-bg-color)!important;
+  }
+}
