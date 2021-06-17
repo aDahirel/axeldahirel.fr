@@ -30,8 +30,7 @@
                     <a class="nav-link mr-5" href="#projets">Projets</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link mr-5"
-                        href="/CurriculumVitae.pdf">CV</a>
+                    <a class="nav-link mr-5" href="/CurriculumVitae.pdf">CV</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link mr-5" href="#contact">Contact</a>
@@ -59,9 +58,9 @@
             <h3><span class="highlight-primary">Présentation</span></h3>
             <div class="row align-items-center">
                 <div id="presentation-text" class="col-lg-8">
-                    <p>Axel, développeur web et mobile spécialisé sur <b>Symfony</b> et intéressé par <b>Vue.js</b>.
+                    <p>Axel, développeur web et mobile spécialisé sur <strong>Symfony</strong> et intéressé par <strong>Vue.js</strong>.
                     </p> <br>
-                    <p><b>A la recherche d’un premier poste de développeur web</b>, ma rigueur associée à ma curiosité
+                    <p><strong>A la recherche d’un premier poste de développeur web</strong>, ma rigueur associée à ma curiosité
                         feront de moi le candidat parfait pour vos missions.</p>
                 </div>
                 <div class="col-lg-4">
@@ -110,14 +109,26 @@
         <article class="container" id="projets">
             <h3 class="section-title"><span class="highlight-secondary">Projets</span></h3>
             <div class="project-container d-flex">
-                <a href="#">
-                    <img class="img-fluid" height="300px" width="500px" src="./images/projets/cadena.png"
+                <a href="https://mc-auribail.verguingregory.fr/">
+                    <img class="img-fluid" height="300px" width="500px" src="./images/projets/mc-auribail.png"
                         alt="Photo du projet fil rouge">
                 </a>
-                <div class="ml-5 project-info">
+                <div class="ml-5 project-info d-flex flex-column justify-content-between">
                     <h4>Projet fil rouge</h4>
-                    <p>Projet avec la <b>formation POEC</b> de développeur php.</p>
-                    <p>avril 2021 - juin 2021</p>
+                    <p>Technologies utilisés : <span>Symfony 5, Twig, Bootstrap, MySql, Git</span></p>
+                    <ul style="margin-left: 18px;">
+                        <li>Gestion d’utilisateurs</li>
+                        <li>Système d’authentification</li>
+                        <li>Génération de pdf</li>
+                        <li>Base de donnée MySql</li>
+                    </ul>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <a href="https://mc-auribail.verguingregory.fr/" class="mr-3 live">Live</a>
+                            <a href="https://github.com/aDahirel/motocross-auribail" class="repo">Repository</a>
+                        </div>
+                        <p>avril 2021 - juin 2021</p>
+                    </div>
                 </div>
             </div>
             <div class="project-container d-flex flex-row-reverse">
@@ -125,10 +136,23 @@
                     <img class="img-fluid" height="300px" width="500px" src="./images/projets/omassage.png"
                         alt="Photo du projet O'Massages">
                 </a>
-                <div class="mr-5 project-info">
+                <div class="mr-5 project-info d-flex flex-column justify-content-between">
                     <h4>Projet O’Massages</h4>
-                    <p>Projet pour le salon de massage O’Massages à Rennes.</p>
-                    <p>décembre 2020 - février 2021</p>
+                    <p>Technologies utilisés : <span>Wordpress, Bootstrap, MySql, Git</span></p>
+                    <ul style="margin-left: 18px;">
+                        <li>Cahier des charges avec client</li>
+                        <li>Front-end avec Bootstrap</li>
+                        <li>Hébergement sur serveur</li>
+                        <li>Base de donnée MySql</li>
+                    </ul>
+                    <div class="d-flex justify-content-between flex-row-reverse project-bis">
+                        <div>
+                            <a href="https://omassages.fr/" class="mr-3 live">Live</a>
+                            <a href="#projects" class="repo"><span
+                                    style="text-decoration: line-through">Repository</span></a>
+                        </div>
+                        <p>avril 2021 - juin 2021</p>
+                    </div>
                 </div>
             </div>
             <div class="project-container d-flex">
@@ -136,10 +160,23 @@
                     <img class="img-fluid" height="300px" width="500px" src="./images/projets/almalusa.png"
                         alt="Photo du projet du Alma Lusa">
                 </a>
-                <div class="ml-5 project-info">
+                <div class="ml-5 project-info d-flex flex-column justify-content-between">
                     <h4>Projet Alma Lusa</h4>
-                    <p>Projet de blog pour l’association Alma Lusa.</p>
-                    <p>septembre 2020 - décembre 2020</p>
+                    <p>Technologies utilisés : <span>Symfony 5, Twig, Bootstrap, MySql, Git</span></p>
+                    <ul style="margin-left: 18px;">
+                        <li>Gestion d'utilisateurs</li>
+                        <li>Gestion d'images</li>
+                        <li>Interface WYSIWYG</li>
+                        <li>Base de donnée MySql</li>
+                    </ul>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <a href="#projects" class="mr-3 live"><span
+                                    style="text-decoration: line-through">Live</span></a>
+                            <a href="https://github.com/aDahirel/almalusa" class="repo">Repository</a>
+                        </div>
+                        <p>avril 2021 - juin 2021</p>
+                    </div>
                 </div>
             </div>
         </article>
@@ -172,27 +209,27 @@
             </div>
             <div id="contact" class="p-5 d-flex justify-content-around">
                 <div>
-                    <h5>Email : </h5>
+                    <h4>Email : </h4>
                     <a href="mailto:axel.dahirel@gmail.com">
                         <p>axel.dahirel@gmail.com</p>
                     </a>
                 </div>
                 <div>
-                    <h5>Téléphone : </h5>
+                    <h4>Téléphone : </h4>
                     <span id="num">
                         <p>06 95 37 77 91</p>
                     </span>
 
                 </div>
                 <div class="social-link">
-                    <h5>Github : </h5>
+                    <h4>Github : </h4>
                     <a class="logo-link" href="https://github.com/aDahirel">
                         <img height="50px" width="50px" src="images/logos/github(2).png" alt="Logo github">
                     </a>
 
                 </div>
                 <div class="social-link">
-                    <h5>Linkedin : </h5>
+                    <h4>Linkedin : </h4>
                     <a class="logo-link" href="https://linkedin.com/in/axel-dahirel/">
                         <img height="50px" width="50px" src="images/logos/linkedin.png" alt="Logo linkedin">
                     </a>

@@ -134,14 +134,17 @@ section {
 
 .project-info > h4 {
   font-size: 1.8vw;
-  margin-bottom: 30px;
 }
 
 .project-info > p {
-  font-size: 1.5vw;
-  margin-bottom: 30px;
+  font-size: 1.3vw;
   font-weight: lighter;
 }
+
+.project-info > p > span{
+  color: #6DADBE;
+}
+
 
 .project-container {
   margin-bottom: 10vh;
@@ -175,10 +178,6 @@ section {
 
 .skills img:hover{
   background-color: var(--main-color);
-}
-
-h5 {
-  font-size: 1.8vw;
 }
 
 #contact > div > a > p {
